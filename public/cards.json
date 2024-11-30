@@ -1,0 +1,83 @@
+
+     {
+        "cards":[
+        {
+         
+            "content": "Retrieval Augmented Generation (RAG) from PDF files ",
+            "detail": "RAG is a natural language processing (NLP) technique that combines the strengths of retrieval-based and generation-based models to generate coherent and context-specific text. Given a prompt or query, RAG retrieves relevant information from a large corpus of text, such as PDF documents, and uses this information to generate a response. The model then generates text based on the retrieved information, allowing for more accurate and informative responses. RAG has applications in various areas, including question answering, text summarization, and document-based dialogue systems",
+            "title": "Chat with the content of the PDF",
+            "date": "23/08/2024",
+            "image": "images/image (31).JPEG",
+            "link": "/pdf"
+        },
+        {
+      
+            "content": "Youtube Retrieval augmented generation of video descriptions",
+            "detail": "RAG is a type of natural language processing (NLP) model that combines the strengths of both retrieval and generation models. It retrieves relevant information from a large corpus of text and then uses that information to generate human-like responses. To create a tool that can chat with a YouTube video using RAG  we'd need a system that can: Transcribe the YouTube video: Convert the audio or video content into text using automatic speech recognition (ASR) or video-to-text technology. Retrieve relevant information: Use a retrieval model to gather relevant information from a large corpus of text related to the video's content. ",
+            "title": "Ask Ai to answer depending on the video content",
+            "date": "23/08/2024",
+            "image": "images/image (30).JPEG",
+            "link": "/youtube"
+        }, 
+         {
+        
+            "content": "Retrieval augmented generation using Arxiv paper",
+            "detail": "Chat with the content of the video , and the AI will generate a description for you",
+            "title": "Arxiv Papers",
+            "date": "23/08/2024",
+            "image": "images/image (33).JPEG",
+            "link": "/arxiv"
+        }
+        , 
+         {
+     
+            "content": "Web scraping",
+            "detail": "Chat with the content of the video , and the AI will generate a description for you",
+            "title": "WEB Scraping",
+            "date": "23/08/2024",
+            "image": "images/image (35).JPEG",
+            "link": "/web"
+        }
+    ], "ai":[
+        {
+            "title": "Machine Learning",
+            "content": [
+                "**Machine learning** is a subset of artificial intelligence (AI) that involves training algorithms to learn from data and make predictions or decisions without being explicitly programmed.",
+                "***Machine learning*** works by feeding a large amount of data into an algorithm, which then analyzes the data to identify patterns, relationships, and trends. The algorithm uses this information to make predictions or decisions, and can improve its performance over time as it receives more data.", 
+                "Image and Speech Recognition: Machine learning is used in image and speech recognition systems, such as self-driving cars, facial recognition software, and virtual assistants like Siri and Alexa.",
+                "**Predictive Maintenance**: Machine learning is used to predict equipment failures and schedule maintenance, reducing downtime and increasing efficiency in industries like manufacturing and healthcare.",
+                "**Personalized Recommendations**: Machine learning is used to recommend products and services to customers based on their past behavior and preferences, such as Netflix's movie recommendations.",
+                "Natural Language Processing: Machine learning is used to analyze and generate human language, such as chatbots and language translation software.",
+                "**Healthcare**: Machine learning is used to diagnose diseases, predict patient outcomes, and develop personalized treatment plans.",
+                "**Finance**: Machine learning is used to detect credit card fraud, predict stock prices, and optimize investment portfolios.",
+                "**Customer Service**: Machine learning is used to power chatbots and virtual assistants, providing 24/7 customer support and improving customer experience."
+
+
+
+
+
+            ],
+            "width": 4
+        },
+        {
+            "title": "Natural Language Processing",
+            "content": ["Natural language processing (NLP) is a subfield of artificial intelligence (AI) that focuses on enabling computers to understand, interpret, and generate human language. NLP algorithms are used to analyze and process large amounts of text data, enabling applications such as chatbots, sentiment analysis, and machine translation. NLP has applications in various industries, including healthcare, finance, customer service, and more."],
+            "width": 4
+        },
+        {
+            "title": "Computer Vision",
+            "content": ["Computer vision is a field of artificial intelligence (AI) that focuses on enabling computers to interpret and understand visual information from the world around them. Computer vision algorithms are used to analyze and process images and videos, enabling applications such as facial recognition, object detection, and autonomous vehicles. Computer vision has applications in a wide range of industries, including healthcare, retail, security, and more."],
+            "width": 4
+        },
+        {
+            "title":"Generative Ai",
+            "content": [" In recent years, artificial intelligence (AI) has become an integral part of modern business, transforming the way companies operate, innovate, and interact with customers. Within the AI landscape, a subset of technologies has emerged that holds tremendous promise for businesses: Generative AI. This revolutionary technology has the potential to disrupt industries, create new revenue streams, and unlock unprecedented levels of innovation. In this article, we'll explore the importance of Generative AI for business and its vast implications for the future of commerce.","**What is Generative AI?** Generative AI refers to a type of AI that uses machine learning algorithms to generate new, original content, such as images, videos, music, text, or even entire products. This technology is based on neural networks that learn patterns and structures from large datasets, enabling them to create novel outputs that are often indistinguishable from those created by humans."],
+            "width": 8
+        },
+        {
+            "title":"Retrieval Augmented Generation",   
+            "content": ["Retrieval Augmented Generation (RAG) from various sources like PDF, Youtube, Arxiv, and Web Scraping"],
+            "width": 4
+        }
+
+    ]}

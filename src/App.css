@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+
+@font-face {
+  font-family: kmail-font;
+  src: url(Aerotis.otf);
+}
+
+.kmail{
+  font-family: kmail-font;
+}
+.butt {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+.raster {
+
+
+     
+    background-image: url("/public/images/image (40).JPEG" );
+    
+    background-size: auto;
+
+ 
+    box-shadow: inset 10px 10px 50px 50px white
+    
+}
+.raster:hover {
+    
+
+    box-shadow: inset 5px 5px 200px 200px white;
+    
+}
+
+
+.scrollbar_hidden {
+overflow: auto;
+
+    -ms-overflow-style: 2px;  /* IE and Edge */
+  scrollbar-width: 5px;  /* Firefox */
+   padding: 5px;
+   
+}
+.scrollbar_hidden::-webkit-scrollbar {
+  display: flex;
+  width: 1px;
+  height:1px;
+ 
+}
+.scrollbar_hidden::-webkit-scrollbar-thumb {
+    background: slategray;
+    height: 1px;
+    width: 1px;
+   
+}
+
+.article-viewer {
+padding: 20px;
+display: flex;
+flex-direction: column;
+
+
+
+
+ max-width: 800px;
+margin:  auto;
+
+background-color: #fff;
+border-radius: 8px;
+
+}
+
+.article-title {
+font-size: 2em;
+margin-bottom: 10px;
+display: flex ;
+justify-content: left;
+align-items: start;
+
+}
+
+.article-meta {
+  font-size: 0.9em;
+   color: #555;
+ }
+
+ .article-image {
+  display: flex;
+
+  padding: 2px;
+  border-radius: 10px;
+  
+  margin:auto;
+  
+width: 100%;
+
+ }
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.caption {
+  font-size: 0.7em;
+  color: #888;
+  margin-top: 10px;
+ 
+  margin-right: 10px;
+  padding:0 0 0 2em   ;
+  right:10px;
+  text-align: right;
+}
+.h6 {
+  border-bottom: slategray solid 1px;
+  font-size: 0.7em;
+  color: slategrey;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding:0 0 0 2em   ;
+  right:10px;
+  text-align: left;
+}
